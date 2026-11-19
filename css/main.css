@@ -1,1 +1,57 @@
-/* Place CSS styles here */
+
+body{
+font-family: "calmetta", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #4c4237;}
+ 
+a {
+    text-decoration: none;
+    color: #fff8d9;
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+a:hover {
+  color: #c5bb8e;
+  filter: brightness(0.7); /* 1 is normal, lower is darker */
+}
+    
+.body-green{
+    background-color: #5e6757;
+    transition: color 0.3s ease;}
+
+.nav-bar {
+    margin: 16px;
+    padding: 20px 40px;
+    font-family: "calmetta", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    list-style-type: none;
+    display: flex;
+    border-radius: 24px;
+    gap: 50px;
+
+    justify-content: space-between;
+    align-items: center;
+
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 20px -4px rgba(0,0,0,.2);
+    background-color: #444e3e7e;}
+
+.nav-bar:hover {
+   color: #2c3328cc; /* darker & slightly less transparent */
+    }
+
+.nav-bar li:first-child {
+    margin-right: auto;
+    color: #e2d9b0;}
+
+
+
+.logo{
+max-width: 130px;}
