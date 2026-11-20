@@ -1,31 +1,30 @@
 
 body{
 font-family: "calmetta", sans-serif;
-font-weight: 400;
+font-weight: 300;
 font-style: normal;
-color: #4c4237;}
+color: #dddbd4;
+font-size: 16px;
+line-height: 1.5;}
  
 a {
     text-decoration: none;
-    color: #fff8d9;
-  transition: filter 0.3s ease, transform 0.3s ease;
-}
+    color: #dddbd4;
+  transition: filter 0.3s ease, transform 0.3s ease;}
 a:hover {
-  color: #c5bb8e;
-  filter: brightness(0.7); /* 1 is normal, lower is darker */
-}
+  color: #d8d4c5;
+  filter: brightness(0.7);}
     
 .body-green{
     background-color: #5e6757;
     transition: color 0.3s ease;}
 
 .nav-bar {
-    margin: 16px;
+    margin: 40px 80px;
     padding: 20px 40px;
     font-family: "calmetta", sans-serif;
     font-weight: 800;
     font-style: normal;
-
 
     position: sticky;
     top: 0;
@@ -42,16 +41,63 @@ a:hover {
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 20px -4px rgba(0,0,0,.2);
     background-color: #444e3e7e;}
-
 .nav-bar:hover {
-   color: #2c3328cc; /* darker & slightly less transparent */
-    }
-
+   color: #2c3328cc;}
 .nav-bar li:first-child {
     margin-right: auto;
     color: #e2d9b0;}
 
-
-
 .logo{
-max-width: 130px;}
+    max-width: 130px;}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    margin: 10px;
+    padding: 12px 16px;
+    gap: 12px;
+    font-size: 0.85rem;}
+  .logo {
+    max-width: 75px;}}
+
+.header{
+    font-family: "ivypresto-display", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #e2d9b0;
+    font-size: 36px;
+    margin: -30px 0px;}
+
+.abt-wrp{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 54px 230px 108px;
+    gap: 60px;}
+
+.abt-wrp2{
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    object-fit: contain;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 2vh;
+    display: flex;
+    align-items: flex-start;}
+
+.abt-wrp3{
+    align-items: flex-end;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;}
+
+
+
+.abt-img{
+    border-radius: 20px;}
+
+.resume-img{
+    max-width: 10%;}
+
+
