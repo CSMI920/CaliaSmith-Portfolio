@@ -49,7 +49,6 @@ a:hover {
 
 .logo{
     max-width: 130px;}
-
 @media (max-width: 768px) {
   .nav-bar {
     margin: 10px;
@@ -59,6 +58,8 @@ a:hover {
   .logo {
     max-width: 75px;}}
 
+
+/*  about page */   
 .header{
     font-family: "ivypresto-display", serif;
     font-weight: 400;
@@ -73,7 +74,6 @@ a:hover {
     margin: auto;
     padding: 54px 230px 108px;
     gap: 60px;}
-
 .abt-wrp2{
     grid-column-gap: 20px;
     grid-row-gap: 20px;
@@ -85,19 +85,52 @@ a:hover {
     margin-top: 2vh;
     display: flex;
     align-items: flex-start;}
-
 .abt-wrp3{
     align-items: flex-end;
     display: flex;
     gap: 20px;
     font-size: 20px;}
 
-
-
 .abt-img{
     border-radius: 20px;}
-
 .resume-img{
     max-width: 10%;}
+
+@media screen and (max-width: 768px) {
+  .header {
+    font-size: 28px;
+    margin: -15px 0px;
+  }
+
+  .abt-wrp {
+    flex-direction: column;
+    align-items: center; 
+    padding: 40px 24px 60px;
+    gap: 30px;
+  }
+
+  .abt-wrp2 {
+    align-items: center;
+    text-align: center;
+  }
+
+  .abt-wrp3 {
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+    gap: 15px;
+  }
+
+  .abt-img {
+    display: block;
+    margin: 0 auto; 
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+
+  .resume-img {
+    max-width: 25%;
+  }}
 
 
