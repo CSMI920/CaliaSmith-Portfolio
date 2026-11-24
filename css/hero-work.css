@@ -1,0 +1,162 @@
+
+/*  Hero-Work page */   
+.title{
+    font-family: "ivypresto-display", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;}
+.fakesquare {
+    width: 1000px;
+    height: 600px;
+    background-color: #38312e;
+    border-radius: 30px;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+.scroll-down{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    padding: 80px;
+    margin-bottom: 400px;}
+
+
+.proj-cards {
+    background-color: #dddbd4;
+    padding: 30px;
+    border-radius: 18px;
+    max-width: 1200px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 64px auto;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;}
+
+.proj-txt {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 0;
+    color: #38312e;}
+.proj-txt h2 {
+    font-family: "ivypresto-display", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: 0px;
+    font-size: 40px;}
+.proj-txt p {
+    margin: 0 0 15px 0;
+    font-size: 18px;}
+
+
+.proj-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 120px;}
+.proj-tags p {
+    border: 1px solid #38312e;
+    border-radius: 20px;
+    padding: 6px 14px;
+    font-size: 16px;
+    color: #38312e;
+    text-transform: uppercase;}
+
+.proj-img {
+    flex: 1;
+    min-width: 0;}
+.proj-img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+    filter: drop-shadow(0 0.5mm 1mm #a3a19c);}
+
+
+
+/* tablet */
+@media screen and (max-width: 1024px) {
+  .fakesquare {
+    width: 90%;
+    height: 450px;
+    margin: 60px auto;
+
+  }
+
+  .scroll-down {
+    padding: 50px 20px;
+    margin-bottom: 200px;
+  }
+
+  .proj-cards {
+    width: 90%;
+    margin: 48px auto;
+    gap: 24px;
+  }
+
+  .proj-txt h2 {
+    font-size: 32px;
+  }
+
+  .proj-tags {
+    margin-top: 60px; /* Reduces the large desktop gap */
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 768px) {
+  .title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .fakesquare {
+    width: 92%;
+    height: 300px;
+    border-radius: 20px;
+  }
+
+  .scroll-down {
+    padding: 40px 15px;
+    margin-bottom: 300px;
+  }
+
+  .proj-cards {
+    flex-direction: column-reverse; 
+    padding: 20px;
+    margin: 32px auto;
+    gap: 20px;
+  }
+
+  .proj-txt h2 {
+    font-size: 28px;
+  }
+
+  .proj-txt p {
+    font-size: 16px;
+  }
+
+  .proj-tags {
+    margin-top: 24px;
+  }
+
+  .proj-tags p {
+    font-size: 14px;
+    padding: 5px 12px;
+  }
+
+  .proj-img {
+    width: 100%;
+  }
+
+  .proj-img img {
+    height: 220px;
+  }
+}
