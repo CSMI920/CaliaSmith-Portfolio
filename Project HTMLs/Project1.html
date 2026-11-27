@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Contact</title>
+  <title>Project#1 Title</title>
   <meta name="description" content="Project#1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,22 +13,26 @@
   <meta property="og:image" content="">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="icon" href="./img/logo-stacked [yellow].png">
+  <link rel="icon" href="../img/logo-stacked [yellow].png">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/project.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+
   <link rel="stylesheet" href="https://use.typekit.net/gix7xhx.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body class="body-green">
+<body>
 
 <nav>
-  <ul class="nav-bar">
+  <ul class="lighter-theme nav-bar">
     <li>
       <a href="../index.html">
-        <img class="logo" src="../img/logo[yellow].png" alt="Logo">
+        <img class="logo" src="../img/logo[brown].png" alt="Logo">
       </a>
     </li>
     <li><a href="../index.html#work-sections">work</a></li>
@@ -38,9 +42,72 @@
   </ul>
 </nav>
 
-  <p>Project #1</p>
 
-  <script src="js/main.js"></script>
+    <!-- CAROSEUL -->
+
+  <div class="caroseul">
+    <div> <img src="../img/Blue[PH].png" alt=""> </div>
+    <div> <img src="../img/Pink[PH].png" alt=""> </div>
+    <div> <img src="../img/Purple[PH].png" alt=""> </div>
+    <div> <img src="../img/Brown[PH].png" alt=""> </div>
+  </div>
+
+<div class="grandpa-wrp">
+  <div>
+    <h1>Project#1 Title</h1>
+  </div>
+
+  <hr>
+
+    <!-- TAB & CONTENT -->
+  <div class="parent-wrp">
+    <!-- TAB BUTTONS -->
+    <div class="tabs">
+      <button class="tab-button active" data-tab="home">
+        Home
+      </button>
+
+      <button class="tab-button" data-tab="about">
+        About
+      </button>
+
+      <button class="tab-button" data-tab="services">
+        Services
+      </button>
+
+      <button class="tab-button" data-tab="contact">
+        Contact
+      </button>
+    </div>
+
+    <!-- CONTENT AREA -->
+    <div class="content-area">
+
+      <div class="tab-content active" id="home">
+        <h2>OVERVIEW</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+
+      <div class="tab-content" id="about">
+        <h2>About</h2>
+        <p>Information about us.</p>
+      </div>
+
+      <div class="tab-content" id="services">
+        <h2>Services</h2>
+        <p>Our available services.</p>
+      </div>
+
+      <div class="tab-content" id="contact">
+        <h2>Contact</h2>
+        <p>Contact information.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="../js/main.js"></script>
 </body>
 
 </html>
